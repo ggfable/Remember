@@ -29,9 +29,9 @@ public class LevelController : MonoBehaviour
 
     private bool MonstersAreAllDead()
     {
-        foreach (var monster in _monsters)
+        foreach (var monster_ko in _monsters)
         {
-            if (monster.gameObject.activeSelf)
+            if (monster_ko.gameObject.activeSelf)
                 return false;
         }
 
